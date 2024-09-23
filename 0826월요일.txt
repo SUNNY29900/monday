@@ -1,0 +1,619 @@
+1조 고은정  \\192.168.0.189
+2조 지수현  \\192.168.0.191
+3조 황두경  \\192.168.0.72
+4조 유종진  \\192.168.0.155
+5조 임병진  \\192.168.0.73
+
+영임쌤ip   \\192.168.0.48
+
+	
+*----------------------------------------------------------------
+작업폴더
+C:\드라이브
+Mtest 
+ㄴworkPython
+    ㄴday0823
+
+O 아나콘다 navigator ( Applications on: ck선택)
+  아나콘다 navigator에서 vsCode선택 실행
+   vsCode선택 실행후 File메뉴 open folder day~~선택
+   vsCode편집기 오른쪽하단  python 3.XX(ck:conda)
+
+8-25-월요일
+ㄴlist, tuple, set, dict
+ㄴlist - 2차원리스트, 로또
+ㄴ예외처리  try:  except Exception as ex:
+ 
+ \\192.168.0.48    영임쌤 폴더 접근 
+
+ 파이썬 키워드 pass None
+ 파이썬 tuple 추가,수정,삭제 불가 ===> list(튜플데이터) 
+       
+ my1 = [ ] 리스트  my1.append(50)  my1.append('f')
+
+ my2 = ( ) 튜플    my2.append('B')사용못함 
+ my3 = list(my2) 튜플 리스트화   my3.append('B')사용
+
+
+
+
+ mygame = [나이24, 'kim', True,  24,  78.9, '상암' ] 
+ 리스트는 순서유지, 중복 가능, 데이터수정,추가,삭제 관련함수많음
+ 내용변경O mygame[1]='aws' 
+
+ mytuple = (나이24, 'kim', True,  24,  78.9, '상암')
+ 내용변경X mytuple[1]='aws'
+
+
+
+ name = 'kim' 
+ genger = True
+ age = 24 
+ point = 78.9
+ area = '상암'  
+ 게임참가자정보 본인비롯 * 100 = 5 * 100  = 500변수 
+
+
+
+파이썬 라이브러리에서 자동으로 제공되는 내장함수
+ str(), int(), float(), 데이터길이len() 
+
+name = input("이름입력 >>>") 문자열입력
+age = int(input( "정수>>> " ))  정수변환  "24" 24변환
+rate = float(input("실수>>> ")) 실수변환  "3.1415" 3.1415 
+score = 1200 
+myscore = str(score)  숫자에서 문자변환  연산불가
+
+
+num1,num2,hap,mok = 0,0,0,0
+try:
+    num1 = int(input("수1 입력? ")).
+    num2 = int(input("수2 입력? "))
+    hap = num1+num2
+    mok = num1//num2
+     
+    print("합=", hap)
+    print("몫=", round(mok,2))
+except Exception as ex:
+    print(ex , " 에러가 발생했습니다")
+
+수1 입력? 23
+수2 입력? 0
+division by zero  에러가 발생했습니다
+
+수1 입력? 21
+수2 입력? aa
+invalid literal for int() with base 10: 'aa'  에러가 발생했습니다
+
+
+
+8-23-금요일
+ㄴ반복문 while
+ㄴ날짜,시간  import time  time.sleep(1)
+ㄴ리스트 mylist = [  ] 
+ㄴ8월26일 월요일 딕트  mydict = { 'kim': 90, 'lee': 80 }
+
+
+
+
+파이썬에서 리스트 = 목록 
+ ㄴ순서를 유지
+ ㄴ중복가능
+ ㄴ혼합형태 'kim', 78, 3.124, True, 'F', 'young'
+ ㄴ같은타입가능
+ ㄴfor반복문으로 출력 권장 
+
+
+
+
+
+파이썬내장함수
+ print(), input('안내문'), round(숫자,자릿수)
+ max(), min(), sum(), int(), str(), list(), type()
+
+
+
+
+컴퓨터 언어 
+ ㄴ모니터출력   파이썬print(), System.out.println()ㅡprintf(),
+              document.write()
+ ㄴ변수선언, 데이터타입,  연산,제어,반복
+   su=0
+   grade='F' 
+
+ ㄴ연산-산술,관계,논리
+ ㄴ제어 if
+  ㄴ반복  for, while
+      ㄴ루프탈출break, 복귀continue
+
+
+  while반복문 설명
+  
+  a = 0 
+  while True :
+      #무한루프 if 조건: break
+    #a = 0
+    a = a + 1  
+      print(a, end =' ' )  
+      if su>10 :break 
+
+
+
+ ㄴ연산-산술,관계,논리,대입연산
+
+
+
+
+  b=0
+  while b<10 :
+    b=b+1
+    print(b)
+    #break사용안해도 됩니다
+
+ flag = True
+  while  flag:
+     print('1.등록   2.출력  3.수정  4.삭제  5.조회  9.종료')
+   data = input('처리선택>>> ')
+   sel = int(data)
+   if sel==1:
+      등록처리
+     elif sel==2:
+      전체출력
+     elif sel==9:
+       break or flag=False
+     else :
+       print('처리해당 번호가 없습니다')   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+while반복문, 리스트, 딕트만 읽어보고 오시면 됩니다.
+
+알고리즘 = 처리흐름 = 로직 = 논리
+ㄴ홍대에서 시청까지 찾아가는 방법 - 최단경로 
+ㄴ알고리즘 시작 별출력, 소트=sort, 스택, 큐, 트리 
+	★ 
+	★ ★ 
+	★ ★ ★ 
+	★ ★ ★ ★ 
+	★ ★ ★ ★ ★
+
+	for a in range(1,7,1) :  #행=가로=row처리후 라인개행
+                   for b in range(1,a,1) :
+               print('★')
+            print()
+
+
+a=1일때
+   b=1,1,1 헛바퀴 출력안됨
+a=2일때
+   b=1,2,1  ★      
+a=3일때
+   b=1,3,1  ★★  
+a=4일때
+   b=1,4,1  ★★★               
+a=5일때
+   b=1,5,1  ★★★★
+a=6일때
+   b=1,6,1  ★★★★★
+
+
+*--------------------------------------------------------------------------------------------------
+*--------------------------------------------------------------------------------------------------
+       aaa.py파이썬 문서작성만 코드X
+       # 파이썬 화면출력=모니터출력 print()함수사용
+       print( '저자 : 홍길동'   ) 
+       print( '이름' , '홍길동' ) 
+       print( '나이' , 27 ) 
+
+
+윈도우시작
+Anaconda3(64-bit)클릭
+ㄴAnaconda navigator클릭 시작화면고정
+  ㄴHome  Applications on: ck선택
+    ck선택후  VScode편집기 Launch
+
+
+X 파이썬에서 파이썬프로그램 다운로드->설치->환경편집
+O 아나콘다설치 vsCode설치후 vsCode실행 
+   ㄴ파이썬프로그램 evns/ck가상환경 파이썬프로그램 설치
+
+O 아나콘다 navigator ( Applications on: ck선택)
+  아나콘다 navigator에서 vsCode선택 실행
+   vsCode선택 실행후 원하는 작업폴더 dayooo선택후 
+   vsCode편집기 오른쪽하단  python 3.XX(ck:conda)
+
+
+8-23-금요일
+ㄴ반복문 while
+ㄴ리스트 my = [  ]
+ㄴ날짜,시간관련 함수 
+
+
+8-22-목요일
+ㄴ제어 if, 반복문 for 
+ㄴ키보드 input('안내문')
+ㄴ형변환 int( )
+
+
+# if~elif~elif~else 제어문 선택지 하나만적용
+if  조건1 :   
+   조건1 만족 A
+elif 조건2 :
+   조건2 만족 B
+elif 조건3 :
+   조건3 만족 C
+elif 조건4 :
+   조건4 만족 D
+else:
+  불만족 F
+
+	커피	빵	요거트
+	아아	우유식빵	딸기요
+	a	b	c
+	x	y	z
+
+
+# if~if~if~else 제어문 선택지 적용 애매모호 
+if  조건1 :   
+   조건1 만족 A
+if 조건2 :
+   조건2 만족 B
+if 조건3 :
+   조건3 만족 C
+if 조건4 :
+   조건4 만족 D
+else:
+  불만족 F
+
+
+
+
+if 조건식  :
+   처리문장
+elif 조건식 :
+     처리문장
+else :
+     처리문장
+
+
+
+
+초간단 변수, 연산, 출력 실습
+출력 print( )함수 다양한 출력 
+영임쌤ip   \\192.168.0.48
+      
+96페이지 조건문,반복문
+  if~else 실습
+   for while 미실습
+
+84페이지 객체
+ class AI :
+   IQ = 1200  속성=attribute=전역변수
+   name = '알파고'
+     service = '의료,기후변동'
+   flag = True
+
+     def play():
+       #play함수=메소드=처리를 하는 묶음=대표자
+       #출력,변수,연산,제어
+            count = 7 지역변수=local variable 
+
+
+
+데이터data
+ㄴ숫자 0~9사이   ===> 연산처리
+ㄴ문자 ' '  " "  
+ㄴbool불 Tru, False
+
+변수는 데이터를 담는그릇 = 변화하는 데이터 취급 
+변수는 타입생략,  문장마지막 세미콜론; 생략
+# 선언부분 = 변수데이터 초기화  = declare 
+# 변수 초기화 = 기본값 대입=할당
+# 변수이름명명 첫글자 소문자 시작 (첫글자 숫자 비권장, 특수문장 비권장)
+# 변수이름명명 첫글자 소문자 eng, my_eng, myeng, my_avg, team_kor 
+title = '데이터점수'
+name = '길동'
+kor = 90
+
+# 로직 = 처리담당  연산(산술,관계,논리), 연산결과 조건if, 반복문(for,while)
+# hap = (kor+eng)
+# avg = (kor+eng)/2 
+# 사칙연산 + - * /몫  %나머지값
+hap = kor+eng   
+avg = hap/2 
+
+# 처리결과 출력 print('안내문', 데이터) 
+# print( ) 내장함수는 라인개행포함 <br>역할
+print('이름=', name)
+print('국어=', kor)
+print('영어=', eng)
+print('총점=' , hap)
+print('평균=' , avg) 
+
+
+  lotto = [21, 9, 38, 16, 45 , 12]  리스트
+  phone = { "010-2345-9876", "010-1234-9876" } set=셋
+  position = ("홍대", 128.45345,  36.95967) 튜플
+  menu = { key:value, 1001:"모니터"}  dict=딕트=json
+
+
+
+상수는 데이터를 담는그릇 = 고정 데이터 취급 
+배열 여러데이터 같은타입  2300     5700     9100 
+배열 여러데이터 같은타입  3.1415  126.573  37.465
+
+목록=list 다른타입  2300  '길동'  7.8  True
+
+
+//VScode 이미설치
+https://code.visualstudio.com/download
+
+//아나콘다설치   
+ https://www.anaconda.com
+ https://www.anaconda.com/products/individual/download-success
+
+//구글,네이버,다음
+
+
+파이썬,빅데이터=BigData
+ ㄴ아나콘다 + vsCode편집기(쥬피터노트북, 코랩), 파이참,  
+ ㄴ파이썬문법, 판다스, numpy, 공공데이터API, 시각화, 웹크롤링
+ ㄴ선형회귀공식 머신러닝,딥러닝
+ ㄴ시각화(차트그래프,맵지도,워드클라우드) + 파이썬기반문법적용
+ ㄴ분산파일처리 하듑(리눅스기반,하듑,스파크)
+ ㄴAI학습러닝(딥러닝,머신러닝)==>알파고,추천,의료,번역,기후
+ ㄴR프로그램(통계프로그램 + 딥러닝,머신러닝)
+ ㄴ서버웹페이지프로그램(Django,Flask)
+ ㄴ데이터베이스 포함(SQL), 자바jdk설치, 자바기초문법
+     ㄴSQL = DDL+DML+DCL+프로시저
+     ㄴ자바언어=출력,입력,연산,제어,반복,배열,함수
+
+
+영임쌤ip   \\192.168.0.48
+1조 고은정  \\192.168.0.189
+2조 지수현  \\192.168.0.191
+3조 황두경  \\192.168.0.72
+4조 유종진  \\192.168.0.155
+5조 임병진  \\192.168.0.73
+     
+*----------------------------------------------------------------
+*----------------------------------------------------------------
+ ㄴworkhtml
+     day0820폴더
+       ㄴimages폴더 복사붙여넣기
+       ㄴtestForm.html 입력화면 
+               <form> 이름: <input type=text> </form>
+
+
+08-21-수요일
+
+
+
+컴퓨터 처리하는 언어 C, python, java, C#닷넷, NodeJS
+ 출력
+ 변수 - 값을 기억하는 공간이름
+ 연산, 제어(if,switch), 
+ 반복(for,while,do~while) 보조제어break,continue
+ 배열 -여러데이터 관리
+ 함수
+ 데이터처리( 파일,db처리)
+
+ 제어 
+ n=0 
+ if 조건 : 
+   조건만족시 처리문장 
+   while(n<5):
+    반복처리문장
+ else:
+   불만족시 처리문장
+ 
+ 
+
+
+
+
+
+
+ 파이썬 제어 if ~ else
+ if  조건  :
+      들여쓰기 문장기술
+  else :
+    들여쓰기 문장기술
+  
+  괄호 
+  대괄호 [  ]
+  중괄호 {  }  function play( ){ 내용기술 }
+  소괄호 (  )
+  
+  def  play() : #제일쉬운 일반적인 함수 
+     처리문장1 
+     처리문장2  
+  
+  def  myplay(score) : #괄호안 score매개인자
+     처리문장1
+     처리문장2  
+     return 789   #맨마지막 return 리턴값 
+
+
+
+
+
+함수=function=produce=method=define
+반복처리하는 명령어를 모아서 배치처럼 합니다
+함수에서 매개인자, 리턴값 
+함수는 내장함수, 사용자정의함수에 매개인자와 리턴값 
+
+자바스크립트에서  function play() {  }
+자바언어에서는 public void  play(){ }
+
+
+파이썬함수 다음주 화요일
+파이썬 함수 매개인자있는경우
+ def play(score) :  #괄호안 데이터 매개인자 
+   처리1 변수선언, 연산처리
+   처리2 반복문 돌리면 if조건
+     처리3 화면모니터 출력 print()
+
+파이썬 함수 리턴값있는경우
+ def play() :  
+   처리1 변수선언, 연산처리
+   처리2 반복문 돌리면 if조건
+     처리3 화면모니터 출력 print()
+   return  '수요일' 
+
+
+참고]  '홍길동'  "홍길동"   'B'  "B"  
+참고]  숫자데이터  34정수  3.1415실수
+참고]   True, False  
+
+파이썬 함수 매개인자+리턴값
+ def play(score) :  #괄호안 데이터 매개인자 
+   처리1 변수선언, 연산처리
+   처리2 반복문 돌리면 if조건
+     처리3 화면모니터 출력 print()
+     return  '수요일'   
+
+
+
+
+
+
+//파이썬 사이트 
+https://www.python.org/
+
+
+
+
+
+
+
+08-20-화요일
+ㄴtable태그, div태그블럭, a태그
+ㄴol,ul,table, dl+dt+dd, video
+ㄴdiv태그응용 form화면 
+ㄴjavascript 언급 
+
+
+
+
+
+div태그블럭 처음시작 ~~~ 마지막끝 영역
+span태그 글자영역만큼 지정
+
+인라인태그 - img,a,span
+블럭태그자동라인개행 - h숫자, ol, ul, dl, table, div
+라인개행 br, paragraph문단
+
+태그 class명명은  스타일에서 .접근 통합성
+태그 id명명은  스타일에서 #접근 유일성
+
+
+화면=폼=form
+<form>  안내문 <input type=> </form>
+
+
+
+
+*----------------------------------------------------------------
+*----------------------------------------------------------------
+1번째]
+윈도우시작 cmd
+C:\Users\user> ipconfig
+  영임쌤ip  \\192.168.0.48
+
+
+2번째] VScode 다운로드후 설치 
+ VScode
+  ㄴFile메뉴 자동저장
+   ㄴ세팅setting  mouse입력 , map입력 X 
+   ㄴ확장에서  live server 
+
+Mtest 
+ ㄴworkhtml
+   ㄴimages그림폴더
+     ㄴimage그림폴더
+     ㄴtest.html 
+
+
+백단server		프런트front(웹web, 앱app)
+ 스프링(자바)		  jsp/asp/php
+ Django(파이썬)	 	 vueJS/react/svelte
+ C,C++			 지원서비스 라이브러리 
+  
+  상품주문, 고객등록  =====> 데이터 저장 database(oracle,mysql)
+  database = SQL언어 (ddl,dml,dtc)
+  클라우드기반(aws,애저,구글,오라클,ibm)  리눅스기반 
+   빅데이터기반 - 예측,ai자동화,데이터관리 
+   data.go.kr 접속 
+
+ 
+8월-19일-월요일
+웹브라우저언어가 html(hyper text텍스트 mark language언어)
+ ㄴ웹브라우저에서 인식 언어(구글,엣지,사파리,파이어폭스,웨일)
+   http통신, ip프로토콜, tcp프로토콜, ftp통신 
+    태그=tag < >, 파이썬 크롤링, vueJS/react
+
+<html>  
+ <head>  
+   <body> 태그 </body>
+ </head>  
+</html>
+  ㄴ라인개행=enter기능없음  <br> <p> <hr> 가로선
+  ㄴ대소문자구별없음 test.html문서, 실행은 웹브라우저 실행
+     <img src="images/a1.png" alt="풍선">
+     <img src="./images/a1.png" alt="풍선">
+
+ ㄴ 쌍페어 <div> </div>  <h3> </h3>  <OL> </OL>  <ul></u> 
+     그냥태그  <img src>  <br> <hr>
+
+ ㄴ자동라인개행=enter기능태그
+    <div> </div> <ol></ol> <ul></ul> <table> </table>  
+   <header숫자1~5>   <h숫자>   <h숫자>
+   <anchor href="http주소및 문서이름"> 안내글자및이미지 </a>
+ 
+
+html 태그에서 속성=atrribute=property  
+<img 필수속성src="./images/main_4.jpg" >
+<img src="./images/main_4.jpg"  
+          속성width="350" 속성height="150" 속성alt="해피>
+
+<b style="color:blue"> 안내문 </b>
+
+
+리스트목록 orderList=ol,  UnorderList=ul
+자동라인개행
+추가항목 list     
+
+
+
+표=도표=가로*세로=table
+<table width="700" border="1">
+  table row가로 =tr
+    table column세로 data = td
+      table column세로 header = th
+</table>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+영임쌤ip   \\192.168.0.48
+1조 고은정  \\192.168.0.189
+2조 지수현  \\192.168.0.191
+3조 황두경  \\192.168.0.72
+4조 유종진  \\192.168.0.155
+5조 임병진  \\192.168.0.73
+*----------------------------------------------------------------
+*----------------------------------------------------------------
+
+작업폴더
+C:\드라이브
+ Mtest 
+ ㄴworkhtml
+     day0820폴더
+       ㄴimages폴더 복사붙여넣기
+       ㄴfirst.html 직접작성 
+
+
+08-21-수요일
+
+08-20-화요일
+ㄴtable태그, div태그블럭, a태그
+ㄴol,ul,table, dl+dt+dd, video
+ㄴdiv태그응용 form화면 
+ㄴjavascript 언급 
+
+
+
+
+
+div태그블럭 처음시작 ~~~ 마지막끝 영역
+span태그 글자영역만큼 지정
+
+인라인태그 - img,a,span
+블럭태그자동라인개행 - h숫자, ol, ul, dl, table, div
+라인개행 br, paragraph문단
+
+태그 class명명은  스타일에서 .접근 통합성
+태그 id명명은  스타일에서 #접근 유일성
+
+
+화면=폼=form
+<form>  안내문 <input type=> </form>
+
+
+
+
+*----------------------------------------------------------------
+*----------------------------------------------------------------
+1번째]
+윈도우시작 cmd
+C:\Users\user> ipconfig
+  영임쌤ip  \\192.168.0.48
+
+
+2번째] VScode 다운로드후 설치 
+ VScode
+  ㄴFile메뉴 자동저장
+   ㄴ세팅setting  mouse입력 , map입력 X 
+   ㄴ확장에서  live server 
+
+Mtest 
+ ㄴworkhtml
+   ㄴimages그림폴더
+     ㄴimage그림폴더
+     ㄴtest.html 
+
+
+백단server		프런트front(웹web, 앱app)
+ 스프링(자바)		  jsp/asp/php
+ Django(파이썬)	 	 vueJS/react/svelte
+ C,C++			 지원서비스 라이브러리 
+  
+  상품주문, 고객등록  =====> 데이터 저장 database(oracle,mysql)
+  database = SQL언어 (ddl,dml,dtc)
+  클라우드기반(aws,애저,구글,오라클,ibm)  리눅스기반 
+   빅데이터기반 - 예측,ai자동화,데이터관리 
+   data.go.kr 접속 
+
+ 
+8월-19일-월요일
+웹브라우저언어가 html(hyper text텍스트 mark language언어)
+ ㄴ웹브라우저에서 인식 언어(구글,엣지,사파리,파이어폭스,웨일)
+   http통신, ip프로토콜, tcp프로토콜, ftp통신 
+    태그=tag < >, 파이썬 크롤링, vueJS/react
+
+<html>  
+ <head>  
+   <body> 태그 </body>
+ </head>  
+</html>
+  ㄴ라인개행=enter기능없음  <br> <p> <hr> 가로선
+  ㄴ대소문자구별없음 test.html문서, 실행은 웹브라우저 실행
+     <img src="images/a1.png" alt="풍선">
+     <img src="./images/a1.png" alt="풍선">
+
+ ㄴ 쌍페어 <div> </div>  <h3> </h3>  <OL> </OL>  <ul></u> 
+     그냥태그  <img src>  <br> <hr>
+
+ ㄴ자동라인개행=enter기능태그
+    <div> </div> <ol></ol> <ul></ul> <table> </table>  
+   <header숫자1~5>   <h숫자>   <h숫자>
+   <anchor href="http주소및 문서이름"> 안내글자및이미지 </a>
+ 
+
+html 태그에서 속성=atrribute=property  
+<img 필수속성src="./images/main_4.jpg" >
+<img src="./images/main_4.jpg"  
+          속성width="350" 속성height="150" 속성alt="해피>
+
+<b style="color:blue"> 안내문 </b>
+
+
+리스트목록 orderList=ol,  UnorderList=ul
+자동라인개행
+추가항목 list     
+
+
+
+표=도표=가로*세로=table
+<table width="700" border="1">
+  table row가로 =tr
+    table column세로 data = td
+      table column세로 header = th
+</table>
+
+
+
+
+
+
+
+
+

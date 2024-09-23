@@ -1,0 +1,214 @@
+작업폴어
+c:/드라이브
+mtest
+-> workhtm1
+
+->testform.html입력화면
+
+-> <form>이름: <input type=text></form>
+
+
+
+08/21 수요일
+
+x파이썬에서 파이선 프로그램 다운로드 ->설치-> 환경편집
+0아나콘다 설치 Vscode 설치 후 vsCode실행
+->파이썬 프로그램 evns/ck 가상환경 파이썬프로그램 설치
+0 아나콘다 navigator(applications on : ck선택
+   아나콘다  navigator에서 vsCode 선택 실행
+vsCode 선택 실행후 원하는 작업 폴더 day0821선택후
+vsCode 편집기 오른쪽 하단 python3.XX(CK: Conda)
+
+초간단 변수, 연산, 출력 실습
+출력 print() 함수 다양한 출력
+
+
+Anaconda3(64-bit)클릭
+->Anaconda3
+vsCode 단독 실행
+
+
+데이터data
+->숫자 0~9사이==>연산처리
+->문자 ''  ""==>연산보다는 구분
+->bool불 Tru, False
+
+변수는 데이터를 담는 그릇=변화한하는 데이터 취급
+변수는 타입생략, 문장마지막 세미콜론; 생략
+title= '게시판'   #문자열 string 혹은or "게시판"
+kor=97  name='길동'
+avg=56.789v   #실수 소숫점포함
+gender=True   #성별 False
+grade='B'       #문자 char "B"
+lotto=[21, 9, 38, 16, 45, 12] 리스트
+phone={"010-2345-9876", "010-1234-9876"}  set=셋(반복허용하지 않음)
+position=("홍대", 128.45345, 36.95967) 튜플
+menu={key:value, 1001: "모니터"} dict=딕트=json
+
+# 선언부분=변수데이터 초기화= declare 
+#변수 초기화=기본값 대입=할당
+#변수이름 명명 첫글자 소문자 시작(첫글자 숫자 비권장, 특수문장 비권장)
+#변수이름 명명 첫글자 소문자 eng, my_eng, myeng, my_sum, my_avg, team_kor
+
+
+# 선언부분=변수데이터 초기화= declare 
+#변수 초기화=기본값 대입=할당
+#변수이름 명명 첫글자 소문자 시작(첫글자 숫자 비권장, 특수문장 비권장)
+#변수이름 명명 첫글자 소문자 eng, my_eng, myeng, my_sum, my_avg, team_kor
+title='데이터점수'
+name= '길동'
+
+kor=90
+eng=85
+hap=0  #sum hap, total, grandtotal sum키워드 금지  sum()내장함수 있어서
+avg=0.0 #avg권장 myavg 권장
+
+# 로직=처리담당 연산(산술, 관계, 논리), 연산결가 조건 if, 반복문(for, while)
+# hap=(kor+eng)
+# avg=(kor+eng/2)
+hap=(kor+eng) 
+#사칙연산 +-*/몫 %나머지값
+avg=hap/2
+
+#처리결과 출력 print('안내문',데이터)
+#print() 내장함수는 라인개행포함 <br> 역할
+print('이름=', name)
+print('국어=', kor)
+print('영어=', eng)
+print('총점=', hap)
+print('평균=', avg)
+
+--
+# 선언부분=변수데이터 초기화= declare
+title: '데이터 점수' 
+name= '길동'
+kor=90
+eng=85
+hap=0  
+avg=0.0
+
+# 로직=연산
+hap=kor+eng
+avg=hap/2
+
+#처리결과 출력 print('안내문',데이터)
+print('이름=', name)
+print('국어=', kor)
+print('영어=', eng)
+print('총점=', hap)
+print('평균=', avg)
+print()
+
+
+
+상수는 데이터를 담는 그릇=고정 데이터 취급
+배열데이터 같은 타입  2300   5700   9100
+배열데이터 같은 타입  3.1415  126.5700  37.465
+
+목록=list 다른타입 2300  '길동' 7.8 True
+
+
+컴퓨터 처리하는 언어c, python, java, c#닷넷, NodeJS
+출력
+변수-값을 기억하는 공간이름
+연산, 제어(if, switch), 
+반복(for, while, do~while)보조제어 break, continue
+배열-여러데이터 관리
+함수
+데이터처리(파일, DB처리)
+자바) 제어 if 조건{} else{}
+파이썬) 제어 if~else
+  if  조건 : 
+    ㅣ들여쓰기 문장기술
+ else : 
+   ㅣ들여쓰기 문장기술
+
+: 나오고 엔터 나오면 무조건 들여쓰기 
+
+함수=function=produce=method=define
+반복처리하는 명령어를 모아서 배치처럼합니다. 
+batch=모아서 처리
+함수에서 매개인자, 리턴값
+**함수는 내장함수, 사용자정의 함수에 매개인자와 리턴값
+abs (-34) 과 34 양수
+lowercase
+uppercase("ab") AB
+round(78. 634, 2) 78.64)->수학함수 ,이 표시가 있으면 반올림
+국가사업은 복어를 정확하게 해야함.
+
+
+자바스크립트에서 function 함수이름 () {}
+자바언어에서는 public voud pay () {}
+
+
+- 파이썬 함수 다음주 화요일
+
+파이썬 함수 매개인자있는 경우
+define play (score) : #괄호안의 데이터 매개인자
+    처리1  변수선언, 연신처리
+    처리2  반복문 돌리며 if조건
+    처리3  화면모니터 출력  print()
+
+파이썬 함수 리턴값있는 경우
+define play (score) : #괄호안의 데이터 매개인자
+    처리1  변수선언, 연신처리
+    처리2  반복문 돌리며 if조건
+    처리3  화면모니터 출력  print()
+    return '수요일'
+
+->처리1,2 앞 들어쓰기
+->리턴이 문자일수도 있고 숫자일 수도 있음
+-> 리턴값은 처리후 수요일을 돌려준다
+-> 처리값이  0 or 1, 처리한 것이 return 1
+->return'1', return '수요일', 문자 숫자 가능
+->'', ""모두 가능
+참조)
+'홍길도'  "홍길동" 'B' "B"
+다만, 홍길동만 쓰면 에러
+참조) 숫자데이터 34 만 쓰면 정수, 34.0 은 실수
+실수 대표적: 3.1415 실수
+
+
+파이썬 함수 매개인자 + 리턴값
+define play (score) : #괄호안의 데이터 매개인자
+define delete (score) : #괄호안의 데이터 매개인자
+define game(score) : #괄호안의 데이터 매개인자
+define titlesearch (score) : #괄호안의 데이터 매개인자
+    처리1  변수선언, 연신처리
+    처리2  반복문 돌리며 if조건
+    처리3  화면모니터 출력  print()
+    ->return 'rain'
+참조) true, false 유형도 있음.
+        return '수요일'
+
+-> 함수에 대한 기본이해 필요(다음주 화요일)
+
+--#print(변수, '문자', ~~), 나열식
+print(a, '*', b, '=', ret)
+
+#print('%d정수 %s문자열 %f실수 %c문자' %())
+print('%d * %d= %d' %(a,b,ret))
+
+#print('{}*{}={}'.format(a,b,ret))
+print('{}*{}={}'.format(a,b,ret))
+
+#print(f'{변수 및 값}')
+print(f'{a}*{b}={ret}')
+
+
+
+파이선 사이트: https://www.python.org/
+def
+
+scikit-learn->시각
+https://scikit-learn.org/stable/supervised_learning.html
+머신 러닝 in 파이쎈
+
+https://matplotlib.org/-.>시각화
+
+
+
+8/22 목요일
+-> 제어if
+->키보드 input('안내문')
+->형변환 int()

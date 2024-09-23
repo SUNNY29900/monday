@@ -1,0 +1,89 @@
+c:드라이브
+mtest
+-> workhtm1
+->work python
+-> 
+윈도우-cmd
+v-> 명령프롬프트
+
+1)
+C:\Users\user>ipconfig
+영임쌤ip192.168.0.48(역슬라이스- 엔터 위)
+
+2) vscode-> 원도우 다운로드 후 (프로그램 파일에 설치)
+vscode
+-> 자동저장
+->세팅-> mouse 입력, map입력x
+->확장에서 live server 
+
+mtset
+-> workhtm1
+->images 그림폴더
+->image그림폴더
+-> test.htm1
+
+
+바탕화면 클릭 후  file->window folder-> 마우스 오른쪽 새파일
+왼쪽 사각형여러개-> 확장-(iver server-> 설치)
+
+file->auto save->preperence
+mous. map
+test. htm-> 12.13: 이름 : 선슬기
+                         동네: 흑석역 
+<h3>이름: 선슬기<h3>
+<h3>동네: 흑석역<h3>
+<img  src="images/a3.png" alt="">
+
+마우스 오른쪽=open with live server
+img  src="imagdes/a3.png" alt="",
+
+
+백단 server                       프런트 front(웹web, 앱app 스마트폰)
+스프링(자바)                        jsp(기업은행)/asp(aspx 지마켓- x는 확장의미)/php(페북)
+Django(파이썬)                   vueJS/react(인스타)/svelte
+C, C++                             지원서비스 라이브러리
+
+mvc2=서블릿
+
+https://www.w3schools.com/html/default.asp
+
+
+상픔주문->고객등록->데이터 저장(database)oracle, mysq1
+database=SQL언어(ddl, dml, dtc)
+클라우드기반(aws, 구글클라우드, 애져, 오라클클라우드, ibm) 리눅스기반
+빅데이터 기반-예측, 고객관리, ai자동화. 많은데이터 관리
+어려운 부분: 언어적 부분
+많은 데이터를 가지고 예측할 수 있도록 훈련
+
+https://www.data.go.kr/접속
+
+
+ server구성(윈도우, 리눅스, 맥)                                   front프렌트엔드
+- 서비스 제공                                                         -개발자=설계자= 코더=corder
+- 안정적                                                                  구현언어-java,파이쎈, c, 코드린
+- 지속적                                                                 -유저=사용자 
+- 속도
+                                구축, 배포, 유지(클라우드)
+
+
+-파이쎈 기본문법
+1) 기본문법 배움
+2) 데이터 관리(수집해서 파일화할것인지, 설계어떻게 할 것인지, 크롤링등)
+시각화
+
+8월 19일 월요일
+ htm1언어(hyper text mark language 언어)-언어에 대한 규칙이 있음
+-> 웹브라우저에서 인식하는 언어(구글, 엣지, 사파리, 파이어폭스, 웨일)
+     http:통신, ip프로토콜, tcp프로토콜, ftp통신
+태크=tag<>, 파이썬 크롤링, vueJS/react
+  데이터 가져올때 htm알아야 크롤링가능
+<htm1>
+<head>
+<body> 어쩌구저쩌구 태그</body>
+
+
+</head>
+</htm1>
+->  대소문자구별없음<image source=./images/ai.png"a1="풍선>
+->img src="images/a1.png"a1="풍선">
+

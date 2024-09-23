@@ -1,0 +1,386 @@
+c:드라이브
+mtest
+-> workhtm1
+->work python
+-> 
+윈도우-cmd
+v-> 명령프롬프트
+
+1)
+C:\Users\user>ipconfig
+영임쌤ip192.168.0.48(역슬라이스- 엔터 위)
+
+2) vscode-> 원도우 다운로드 후 (프로그램 파일에 설치)
+vscode
+-> 자동저장
+->세팅-> mouse 입력, map입력x
+->확장에서 live server 
+
+mtset
+-> workhtm1
+->images 그림폴더
+->image그림폴더
+-> test.htm1
+
+
+바탕화면 클릭 후  file->window folder-> 마우스 오른쪽 새파일
+왼쪽 사각형여러개-> 확장-(iver server-> 설치)
+
+file->auto save->preperence
+mous. map
+test. htm-> 12.13: 이름 : 선슬기
+                         동네: 흑석역 
+<h3>이름: 선슬기<h3>
+<h3>동네: 흑석역<h3>
+<img  src="images/a3.png" alt="">
+
+마우스 오른쪽=open with live server
+img  src="imagdes/a3.png" alt="",
+
+
+백단 server                       프런트 front(웹web, 앱app 스마트폰)
+스프링(자바)                        jsp(기업은행)/asp(aspx 지마켓- x는 확장의미)/php(페북)
+Django(파이썬)                   vueJS/react(인스타)/svelte
+C, C++                             지원서비스 라이브러리
+
+mvc2=서블릿
+
+https://www.w3schools.com/html/default.asp
+
+
+상픔주문->고객등록->데이터 저장(database)oracle, mysq1
+database=SQL언어(ddl, dml, dtc)
+클라우드기반(aws, 구글클라우드, 애져, 오라클클라우드, ibm) 리눅스기반
+빅데이터 기반-예측, 고객관리, ai자동화. 많은데이터 관리
+어려운 부분: 언어적 부분
+많은 데이터를 가지고 예측할 수 있도록 훈련
+
+https://www.data.go.kr/접속
+
+
+ server구성(윈도우, 리눅스, 맥)                                   front프렌트엔드
+- 서비스 제공                                                         -개발자=설계자= 코더=corder
+- 안정적                                                                  구현언어-java,파이쎈, c, 코드린
+- 지속적                                                                 -유저=사용자 
+- 속도
+                                구축, 배포, 유지(클라우드)
+
+
+-파이쎈 기본문법
+1) 기본문법 배움
+2) 데이터 관리(수집해서 파일화할것인지, 설계어떻게 할 것인지, 크롤링등)
+시각화
+
+
+
+-> e대소문자구별없음. 
+<image source=./images/a1.png"al="풍선">
+
+
+<oimg src="images/a1.png alt="풀선">
+->쌍페어 <h3></h3>
+</ html>
+엔터 기능 없음 <br>추가하면 엔터기능
+라인개행= enter 기능없음 <br>,<p><hr>가로선
+대소문자구별없음 test.htm1문서, 실행은 웹브라우저 실행
+<o<img src="./images/a1.png" alt="풍선">
+
+쌍페어<h3></h3><OL></OL><div></div>
+그냥태그 <img src><br><hr>
+자동라인개행=enter 기능태그
+<div><table><orderList><UnOrderList><hr>
+->                  <ol>        <ul>
+<div></div><ol></ol><ul></ul><table?</table>
+<header숫자1-5><h1>라인개행짙하게</h1><h5></h5>\
+<a href="http:주소및 문서이름"> 안내글자 및 이미지</a>
+<anchor href="http주소 및 문서이름"> 안내글자 및 이미지</a>
+<h숫자>라인 +짙하게 <h숫자>
+
+test01.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> header 제목1 </h1>
+    <h2> header 제목2 </h2>
+    <h3> header 제목3 </h3>
+    <h4> header 제목4 </h4>
+    <h5> header 제목5 </h5>
+    <h6> header 제목6 </h6>
+
+    <img src="./images/a1.png" alt="" width="150"  height="120">
+    <img src="./images/a1.png" alt="" width="120"  height="100">
+    <img src="./images/a1.png" alt="" width="100"  height="80">
+
+</body>
+</html>
+
+
+
+
+--
+test02.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> test02.html1</title>
+</head>
+<body>
+    안녕하세요 <br>
+    반갑습니다 <br>
+    선슬기학생 <br>
+    홍길동짝꿍 <br>
+    <hr><!--가로라인-->
+
+    안녕하세요 <p></p> <br>
+    반갑습니다 <p></p> <br>
+    선슬기학생 <p></p> <br>
+    홍길동짝꿍 <p></p>
+        <hr> <!--가로라인 bold, italic, underline-->
+        <b> 안녕하세요 </b> <br> <br>
+        <i> 반갑습니다 </i>  <br> <br>
+        <u> 김영임학생 </u> <p> <br>
+        <b><i><u>우리나라 대한민국 금수강산 </u></i></b>
+
+
+
+https://www.w3schools.com/html/default.asp
+
+--
+test03 div.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><div></title>
+</head>
+<body>
+    <div>
+        <b> Lording</b> <br><!-- 주석 설명-->
+        <b> 본인카페소개></b>><p>
+        <img src="images/main_4.jpg" width="250" height="150"><br>
+        <b> 저자: 선슬기 </b> <p>
+
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><div></title>
+</head>
+<body>
+    <div align="center">
+        <b style= "color: blue"> 우리카페소개 </b> <br>
+    
+        <b> 본인카페소개></b>><p>
+        <img src="images/main_4.jpg" width="250" height="150"><br>
+        <b> 저자: 선슬기 </b> <p>
+
+
+<b style= "color:#abcdef"> 우리카페소개 </b> <br>
+
+html 속성-태그에서 속성=atrribute=property
+
+<img 필수속성 src=". /images/main_4.jpg">
+<img  src=". /images/main_4.jpg"
+                  속성 width="350" 속성 heigh="150" 속성 alt="해피"
+
+색깔은 스타일
+   <b style= "color:red"> 우리카페소개 </b> <br>
+   <b style= "color:red"> 안내문 </b> 
+리스트목록 OrderList=ol, Underlist-ul
+자동라인개행
+추가항목 list
+
+<img src="images/main_4.jpg" width="250" height="150"><br>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test04</title>
+</head>
+<body>
+    <h3> OL, UL testing </h3>
+</ol>
+        
+<ul type="square">
+        <li> 선유도 </li>
+        <li> 제주도 </li>
+        <li> 강화도 </li>
+        <li> 독도 </li>
+        <li> 우이도 </li>
+        <li> 사랑도 </li>
+    </ul>
+
+    <ul type="circle">
+    
+    <li> 선유도 </li>
+    <li> 제주도 </li>
+    <li> 강화도 </li>
+    <li> 독도 </li>
+    <li> 우이도 </li>
+    <li> 사랑도 </li>
+</ul>
+
+--
+ol type="A">
+        <li> 선유도 </li>
+        <li> 제주도 </li>
+        <li> 강화도 </li>
+        <li> 독도 </li>
+        <li> 우이도 </li>
+        <li> 사랑도 </li>
+    </ul>
+
+-
+
+<a href=""> 네이버 </a> &nbsp;
+<a href=""> 카카오 </a> &nbsp;
+<a href=""> 구글 </a> &nbsp;
+--
+<a href=""> http://www.naver.com> 네이버 </a> &nbsp;
+<a href="">  http://www.daum.com> 카카오 </a> &nbsp;
+<a href="">  http://www.goolgle.com> 구글 </a> &nbsp;
+
+
+--
+table5
+표=도표=가로*세로=table
+<table width ="700" border="1"
+<table>
+table row 가로 tr
+table column  세로 data=td
+table column  세로 header=th
+
+
+-
+
+<body>
+    😁❤️😂🤣🤣🚗🚗
+
+    <table width="700" border="1">
+        <tr>
+            <td> code종목</td>
+            <td> 회사명 </td>
+            <td> 거래금액 </td>
+            <td> 참고사항 </td>
+        </tr>
+        <tr>
+            <td>23490</td>
+            <td>에이컨아키데미</td>
+            <td>76.500</td>
+            <td>빅데이터 관련</td>
+        <tr>
+            <td>776523</td>
+            <td>ktds아카데미</td>
+            <td>12,700</td>
+            <td>클라우드 관련</td>   
+
+    </table>
+</script>    
+</body>
+</html>
+
+
+-
+<body>
+    😁❤️😂🤣🤣🚗🚗
+
+    <table width="700" border="1"  cellspacing="0" cellpadding="5">
+
+    <caption style="color:blue"> 2024년 하반기 우리희망</caption>
+            <tr>
+            <th> code종목</td>
+            <th> 회사명 </td>
+            <th> 거래금액 </td>
+            <th> 참고사항 </td>
+        </tr>
+        <tr>
+            <td>23490</td>
+            <td>에이컨아키데미</td>
+            <td>76.500</td>
+            <td>빅데이터 관련</td>
+        <tr>
+            <td>776523</td>
+            <td>ktds아카데미</td>
+            <td>12,700</td>
+            <td>클라우드 관련</td>   
+
+    </table>
+</script>    
+</body>
+</html>
+
+윈도우 키 + .  ->아이콘
+
+
+
+-homeworkcoffee
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> hemeworkcoffee.html</title>
+</head>
+<body>
+   
+    <body>
+        <img src="images/main_4.jpg" width="500" height="150"><br>
+      
+        <body>
+            ☕ <b style= "color:rgb(0, 174, 255)"> Coffee Price </b> <br>
+            <body>
+            </ol>
+             <ul type="square">
+             <b style= "color:rgb(2, 12, 14)">
+             <li> 아메리카노(americano) 3,500원 </li>
+             <b style= "color:rgb(142, 214, 226)">(할인적용시 2,500원)
+             <b style= "color:rgb(2, 12, 14)">
+            <li> 카페라떼(cafe lattee) 5,500원 </li>
+            <b style= "color:rgb(142, 214, 226)">(할인적용시 2,500원)
+             <b style= "color:rgb(2, 12, 14)">
+             <li> 카푸치노(capucchino) 6,000원 </li>
+            <b style= "color:rgb(142, 214, 226)">(할인적용시 2,500원) 
+                <hr> <!--가로라인 bold, italic, underline-->
+
+<body>
+☕ <b style= "color:rgb(0, 174, 255)"> Coffee Price </b> <br>
+<body>
+</ol>
+ <ul type="square">
+ <b style= "color:rgb(2, 12, 14)">
+ <li> 아메리카노(americano) 3,500원 </li>
+ <b style= "color:rgb(142, 214, 226)">(할인적용시 2,500원)
+ <b style= "color:rgb(2, 12, 14)">
+<li> 카페라떼(cafe lattee) 5,500원 </li>
+<b style= "color:rgb(142, 214, 226)">(할인적용시 2,500원)
+ <b style= "color:rgb(2, 12, 14)">
+ <li> 카푸치노(capucchino) 6,000원 </li>
+<b style= "color:rgb(142, 214, 226)">(할인적용시 2,500원)  
+
+
+---
+지수현
+192.168.0.191
+c:/드라이브
+Mtest
+-> day0919폴더
+->images폴더 복사붙여넣기
+->test0.htm

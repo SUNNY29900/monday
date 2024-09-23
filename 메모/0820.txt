@@ -1,0 +1,420 @@
+9/20
+WEB-Php,asp,jsp,----  클라이언트 프레임워크
+                             JS-argular구글
+                             vueJS-삼성, KT
+                            리눅스-인스타
+APP-아이폰
+       안디로이드
+
+------------------------------------
+오라클, mysqk<-data base <- 정보유지<-data화    => DB가 이해하는 언어SQR
+클라우드기반<-서버구축 <- 데이터 유지                      *웹브라우저가 이해하는 html+CSS+JAVA script
+                                       서비스유지
+
+
+procedure=처리=구현=작동=동작=서비스
+어떤 언어로 처리가 구현되어있어?
+C. C++, JAVA, Python
+C#
+
+
+Python
+
+***-기본문법이해- 출력,입력
+                    -연산, 제어, 반복
+                   - 배열, 함수, 정규
+                   -예회, 파일?
+-데이터-파일
+           -DB
+-데이터 조작-차트, 지도, 그래프, 시각화
+-학습(머신러닝, 딥러닝)=교육
+-> 이모든 학습이 끝나고 나면 ai와 연결됨?
+
+FULL 풀스택
+-EXPRES서버구축-JAVA Spring
+                       -Python Dango
+-NodeSS
+-몽고디비. 마리아DB
+- 리맥트, vueJS 
+
+ R=통계*(3-4주)
+데이터시각화
+
+DATABASE 언어 SQR-oracle
+                             -MySQL
+리눅스 설치(우분투, 하둡) 
+
+
+오늘할 것: WEB-Html태그
+
+
+2강
+https://jquery.com/
+크로스 플랫폼의 자바스크립트 라이브러리
+
+<실습1>: first. html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> table 도표연습 </h2>
+    <table width="700" border="1" cellspacing="0" cellpadding="5">
+       <caption><b>2024년 모니터 가격비교</b></caption>
+       <tr>
+           <td><img scr="./images/bar.gif"
+           <tr align="center"
+               <td colspan="4">
+                  <img src="./images/bar.gif" width="300">
+               </td>
+       </tr>
+       <tr bgcolor="yellow">
+           <td>상표코드</td>
+           <td>제품이름</td>
+           <td>가격</td>
+           <td>참고사항</td>
+       </tr> 
+       <tr>
+           <td>p100_202408</td>
+           <td>엘쥐모니터</td>
+           <td>78,000</td>
+           <td>운반시 주의</td>
+      </tr> 
+      <tr>
+          <td>p100_202405</td>
+          <td>kt빔모니터</td>
+          <td>75,000</td>
+          <td>운반시 주의</td>
+      </tr> 
+      <tr>
+        <td>p100_202401</td>
+        <td>hp모니터</td>
+        <td>53,000</td>
+        <td>운반시 주의</td>
+    </tr> 
+
+    </table>
+</body>
+</html>
+
+table태그, div태그, a태그
+ol, ul, table, dl+dt+
+
+<실습1-2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> table 도표연습 </h2>
+    <table width="700" border="1" cellspacing="0" cellpadding="5">
+       <caption><b>2024년 모니터 가격비교</b></caption>
+       <tr>
+           <td><img scr="./images/bar.gif"
+           <tr align="center"
+               <td colspan="4">
+                  <img src="./images/bar.gif" width="300">
+               </td>
+       </tr>
+       <tr bgcolor="yellow">
+           <td>상표코드</td>
+           <td>제품이름</td>
+           <td>가격</td>
+           <td>참고사항</td>
+       </tr> 
+       <tr>
+           <td>p100_202408</td>
+           <td>엘쥐모니터</td>
+           <td>78,000</td>
+           <td rowspan="3">
+               ※운반시 조심
+            </td>
+           
+      </tr> 
+      <tr>
+          <td>p100_202405</td>
+          <td>kt빔모니터</td>
+          <td>75,000</td>
+          
+      </tr> 
+      <tr>
+        <td>p100_202401</td>
+        <td>hp모니터</td>
+        <td>53,000</td>
+        
+    </tr> 
+
+    </table>
+</body>
+</html>
+
+<실습1-3>
+표=도표=가로*세로=table
+<table width="700" border="1">
+    table row가로=tr
+       table cloumn세로 data=td
+          table colimn 세로 header =th
+</table>
+
+<예>
+세로합치기 td rowspan="4"
+
+
+
+<실습3 kakao-html>-완성x
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test.html</test></title>
+    <style>
+        *{ 
+
+         *{font-weigh:bold}
+         a{
+         front=size:12pt;
+         text-decoration:none;
+         color:blue;
+         font-family:comic sans :-ms-fullscreen
+          
+         }
+         a: hover{
+            front-size:16pt;
+            text-decoration: underline
+            color:green;
+            font-family:'comic sans ms';
+         }
+    </style>
+    
+</head>
+<body>
+    <div>
+        우리나라 대한민국<br>
+        금수강산 화려강산<br>
+
+        <a href="first.html"> table연습</a>
+        <a href="kakao. html">kakao문서</a>
+        <a href="naver.html">naver문서</a>
+
+
+        <a href="font-weigh"
+        
+
+</body>
+</html>
+
+
+<연습>_check
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test.html</title>
+    <style>
+        *{ padding-top: 10px;}
+        a{
+          text-decoration: none; 
+          color:blue;
+          font-family: 'Comic Sans MS';
+        }
+
+        a:hover{
+          font-size: 16pt ;
+          text-decoration: underline; 
+          color:green;
+          font-family: 'Comic Sans MS';  
+        }
+    </style>
+</head>
+<body>
+    <div>
+        우리나라 대한민국 <br>
+        금수강산 화려강산 <br>
+
+        <a href="first.html"><img src="./images/cake1.jpg" width="120" height="70"><title="table" table</a>
+        <a href="kakao.html"><img src="./images/cake2.jpg"  width="120" height="70"><title="kakao" table</a>
+        <a href="naver.html"><img src=.images/charset" width="120 height-70"><title="naver" table </a>
+    </div>
+
+    <dl>
+        <dt>이탈리아식 볶음요리</dt>
+        <dd>
+            양고기에 남미식 칠리소스에 포도주를 곁들인 요리로
+            싱싱한야채, 해물에 올리브 주소스로 에티파이져 Sweet and sour pork tomato
+            각종야채 주요리로 건강한 볶음요리입니다. 
+            요리방법은 아래와 같습니다
+            판체타와 대파는 팬에 넣고 중간 불에서 파기름을 낸다
+            잘게 썬 김치를 넣고 함께 볶다가  설탕, 굴소스로 간 한다
+            여러재료 손질후 소금, 후추로 싱겁게 간을 한후  뜨거운 팬에 볶아줍니다
+        </dd>
+        <dt>남미식 볶음요리</dt>
+        <dd>
+            닭고기에 남미식 칠리소스에 포도주를 곁들인 요리로
+            싱싱한야채, 해물에 올리브 주소스로 에티파이져 Sweet and sour pork tomato
+            각종야채 주요리로 건강한 볶음요리입니다. 
+            요리방법은 아래와 같습니다
+            판체타와 대파는 팬에 넣고 중간 불에서 파기름을 낸다
+            잘게 썬 김치를 넣고 함께 볶다가  설탕, 굴소스로 간 한다
+            여러재료 손질후 소금, 후추로 싱겁게 간을 한후  뜨거운 팬에 볶아줍니다
+        </dd>
+        <dt>한국식 볶음요리</dt>
+        <dd>
+            돼지기에 살짝익은 김치와 양파,
+            싱싱한야채, 해물에 올리브 주소스로 에티파이져 Sweet and sour pork tomato
+            각종야채 주요리로 건강한 볶음요리입니다. 
+            요리방법은 아래와 같습니다
+            판체타와 대파는 팬에 넣고 중간 불에서 파기름을 낸다
+            잘게 썬 김치를 넣고 함께 볶다가  설탕, 굴소스로 간 한다
+            여러재료 손질후 소금, 후추로 싱겁게 간을 한후  뜨거운 팬에 볶아줍니다
+        </dd>
+    </dl>
+
+</body>
+</html>
+
+
+-
+https://slack.com/intl/ko-kr/
+
+
+-실습4 비디오 index.htm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX HTML</INDEX></title>
+</head>
+<body>
+    
+      <!-- div태그, video태그-->
+      <!--index.html-->
+        <div>
+          <p></p>
+          <h2 style="color:orangered">index.html</h2>
+          <video src="images/flight.mp4" width="600" controls autoplay muted loop></video>
+       </div>
+</body>
+</html>
+
+--
+-> controls
+-> autoplay 
+-> muted 
+-> loop
+
+
+<실습4-1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX HTML</INDEX></title>
+    <style>
+        #top{margin-top:50px;}
+    </style>
+</head>
+<body>
+    
+      <!-- div태그, video태그-->
+      <!--index.html-->
+        <div align="center">
+          <p id="top"></p>
+          <h2 style="color: green;"> Loading...Waiting...</h2>
+          <video src="images/flight.mp4" width="600" controls autoplay muted loop></video>
+          
+          <h2 id="message">Loading...Waiting...</h2>
+       </div>
+</body>
+</html>
+
+--
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX HTML</INDEX></title>
+    <style>
+        #top{margin-top:50px;}
+    </style>
+          #top
+</head>
+<body>
+    
+      <!-- div태그, video태그-->
+      <!--index.html-->
+        <div align="center">
+          <p id="top"></p>
+          <h2 style="color: green;"> Loading...Waiting...</h2>
+          <video src="images/flight.mp4" width="600" controls autoplay muted loop></video>
+          
+          <!--span태그 라인개행x-->
+          <br>
+          <span id="message">Loading...Waiting...</span>
+          <!--컨테이너역할태그 div table dl ol ul p 자동라인개행-->
+          <!--인라인태그=  Non컨테이너태그 imag a span -->
+       </div>
+</body>
+</html>
+-
+-> 
+
+--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div>   <!--div 처음시작-->
+     <form name ="myform" action="">
+    <fieldset>
+        <legend>안내문 <caption>
+            
+        </legend>
+        <div>
+            <label for=""> 제목:</label>
+            <input type="text" name=""" id=""
+        </div>
+        <div>
+            <label for=""> 메일:</label>
+            <input type="text" name=""" id=""
+        </div>
+
+    </fieldset>
+     </form>
+     </div>  <!-- div 처음end-->
+</body>
+</html>
+
+-----\\
+
+
+
+div태그블럭 처음시작~~마지막끝 영역
+span 태그 글자영역만큼 지정
+
+인라인태그 -img, a, spam
+블럭태그자동라인 개행-h숫자, ol, ul, dl, table, div
+라인개행 br, paragraph문단
+
+태그 class명명은 스타일에서 접근 통합성
+태그id명명은 스타일에서 #접근 유일성
+
+화면=폼=form
+<form> 안내문<input type=></form>
+

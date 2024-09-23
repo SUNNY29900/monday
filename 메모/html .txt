@@ -1,0 +1,6 @@
+html: 
+
+<img>: 이미지를 연결하는 태그
+<img scr="maltese.ipg">
+
+<p>: 텍스트를 연결하는 태그
